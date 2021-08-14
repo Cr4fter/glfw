@@ -3,8 +3,8 @@ project "GLFW"
 	language "C"
 	systemversion "latest"
 	staticruntime "On"
-	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+	targetdir ("bin/glfw/%{prj.name}")
+	objdir ("bin-int/glfw/%{prj.name}")
 
 	files
 	{
